@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['chick']
+
+roboflow:
+  workspace: gautam-malhan
+  project: chick_counter-n27zl
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gautam-malhan/chick_counter-n27zl/dataset/1
